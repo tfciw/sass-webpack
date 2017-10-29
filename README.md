@@ -12,6 +12,10 @@ npm start
 npm run dev
 ```
 ### 说明(没有清理文件，方便做演示，可自行清理)
+clean-webpack-plugin保证每一次执行命令都会递归清空dist目录
+```javascript
+new cleanWebpackPlugin(['dist']),
+```
 ```javascript
 {
 	test: /\.(jpg|png|gif|jpeg)$/,
