@@ -53,7 +53,7 @@ new cleanWebpackPlugin(['dist']),
 	|---index.html (文件)
 	|---app.js (文件)
 ```
-不同目录放不同的文件，假定你的项目有N个html文件，则需要在webpack.config.js 里添加配置，例如：我又一个activity.html文件，则就需要在plugins添加相关配置。
+不同目录放不同的文件，假定你的项目有N个html文件，则需要在webpack.config.js 里添加配置，例如：我有一个activity.html文件，则就需要在plugins添加相关配置。
 ```javascript
 plugins: [
 	new cleanWebpackPlugin(['dist']),
