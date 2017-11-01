@@ -48,7 +48,7 @@ new cleanWebpackPlugin(['dist']),
 			|---main.js (文件)
 		|---img (目录)
 			|---1.jpg (文件)
-		|---fonts (目录)
+		|---fonts (目录) 
 	|---other.html (文件)
 	|---index.html (文件)
 	|---app.js (文件)
