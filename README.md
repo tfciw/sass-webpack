@@ -26,7 +26,7 @@ new cleanWebpackPlugin(['dist']),
 			name: 'img/[name]_[hash:8].[ext]'
 		}
 	}]
-},
+}, 
 {
 	test: /\.html$/,
 	use: ['html-withimg-loader']
