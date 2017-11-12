@@ -34,7 +34,7 @@ new cleanWebpackPlugin(['dist']),
 //html会用到img标签，url-loader是不会对这些src下面的图片进行处理的，所以用到了html-withimg-loader这个loader，
 //他会配合url-loader 做一些处理，最终输出到dist下面的img目录
 ```
-其他loader就不一一提示了，常规处理。
+其他loader就不一一提示了，常规处理。 
 
 ### 开发
 看到src目录，也是我们的源码目录
