@@ -27,7 +27,7 @@ new cleanWebpackPlugin(['dist']),
 		}
 	}]
 }, 
-{
+{ 
 	test: /\.html$/,
 	use: ['html-withimg-loader']
 }
