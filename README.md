@@ -77,3 +77,11 @@ js也是同理，反正当你需要什么文件(any.scss , any.js),你就在app.
 ### 引入jquery
 试了安装 juqery，再导入 import $ from 'jquery'，不过我运用的一个slider插件会失效，哪怕是本地导入了jquery源码也是一样，想了一个笨方法，那就是把jquery和SuperSlider放到一个文件，bingo。
 #### 关于jquery的使用以及全局的 $ 后面会更新解决方法:stuck_out_tongue_closed_eyes:
+---------------------2017.12.7
+plugins: [
+		new webpack.ProvidePlugin({
+			jQuery: "jquery",
+			$: "jquery"
+		})
+	]
+首先 引用安装jquery，然后在webpck配置文件加上面这些代码即可。
